@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>go1pylib: Python Library for Go1 Robot Control &mdash; go1pylib 0.1.4 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=dff88ec8"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to go1pylib’s Documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            go1pylib
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">go1pylib: Python Library for Go1 Robot Control</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#features">Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#project-structure">Project Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contributing">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#license">License</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">go1pylib</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">go1pylib: Python Library for Go1 Robot Control</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/README.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="go1pylib-python-library-for-go1-robot-control">
+<h1>go1pylib: Python Library for Go1 Robot Control<a class="headerlink" href="#go1pylib-python-library-for-go1-robot-control" title="Permalink to this heading"></a></h1>
+<a class="reference external image-reference" href="https://pypi.org/project/go1pylib/"><img alt="https://img.shields.io/pypi/v/go1pylib" src="https://img.shields.io/pypi/v/go1pylib" /></a>
+<a class="reference external image-reference" href="https://opensource.org/licenses/MIT"><img alt="https://img.shields.io/badge/License-MIT-blue.svg" src="https://img.shields.io/badge/License-MIT-blue.svg" /></a>
+<img alt="https://img.shields.io/pypi/pyversions/go1pylib" src="https://img.shields.io/pypi/pyversions/go1pylib" />
+<p>go1pylib is a Python library designed for controlling the Go1 robot, providing high-level methods for robot movement, state management, and collision avoidance. With built-in functionality for MQTT communication and control modes, go1pylib is ideal for both development and research use in robotics applications.</p>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Robot Control</strong>: Seamlessly control Go1’s movements, including forward, backward, turns, and various pose adjustments.</p></li>
+<li><p><strong>Collision Avoidance</strong>: Built-in methods for safe navigation with customizable thresholds for obstacle detection.</p></li>
+<li><p><strong>Battery Monitoring</strong>: Real-time battery status feedback with configurable LED indicators based on battery levels.</p></li>
+<li><p><strong>LED Control</strong>: Control LED colors for custom feedback based on robot state or user-defined actions.</p></li>
+<li><p><strong>MQTT Communication</strong>: Reliable MQTT communication interface for Go1 state management and control.</p></li>
+<li><p><strong>Multiple Control Modes</strong>: Switch between modes such as WALK and STAND for different application scenarios.</p></li>
+</ul>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<p>Install the latest version of go1pylib using pip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>go1pylib
+</pre></div>
+</div>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this heading"></a></h2>
+<p>Here’s a quick example demonstrating basic usage:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">asyncio</span>
+<span class="kn">from</span> <span class="nn">go1pylib</span> <span class="kn">import</span> <span class="n">Go1</span><span class="p">,</span> <span class="n">Go1Mode</span>
+
+<span class="k">async</span> <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">robot</span> <span class="o">=</span> <span class="n">Go1</span><span class="p">()</span>
+    <span class="n">robot</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>  <span class="c1"># Connect to the robot</span>
+
+    <span class="c1"># Set to WALK mode and move forward</span>
+    <span class="n">robot</span><span class="o">.</span><span class="n">set_mode</span><span class="p">(</span><span class="n">Go1Mode</span><span class="o">.</span><span class="n">WALK</span><span class="p">)</span>
+    <span class="k">await</span> <span class="n">robot</span><span class="o">.</span><span class="n">go_forward</span><span class="p">(</span><span class="n">speed</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">duration_ms</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
+
+    <span class="c1"># Check battery status</span>
+    <span class="n">battery_level</span> <span class="o">=</span> <span class="n">robot</span><span class="o">.</span><span class="n">get_battery_level</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Battery Level: </span><span class="si">{</span><span class="n">battery_level</span><span class="si">}</span><span class="s2">%&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Stop and disconnect</span>
+    <span class="n">robot</span><span class="o">.</span><span class="n">set_mode</span><span class="p">(</span><span class="n">Go1Mode</span><span class="o">.</span><span class="n">STAND_DOWN</span><span class="p">)</span>
+    <span class="n">robot</span><span class="o">.</span><span class="n">disconnect</span><span class="p">()</span>
+
+<span class="n">asyncio</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
+</pre></div>
+</div>
+</section>
+<section id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this heading"></a></h2>
+<p>Examples for controlling the robot, collision avoidance, and LED control can be found in the <cite>examples</cite> directory.</p>
+</section>
+<section id="project-structure">
+<h2>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this heading"></a></h2>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>go1pylib/
+├── examples/
+│   ├── move_forward.py
+│   ├── dance.py
+│   └── avoid_obstacles.py
+├── src/
+│   └── go1pylib/
+│       ├── go1.py
+│       ├── mqtt/
+│       ├── state.py
+│       └── ...
+├── tests/
+└── README.md
+</pre></div>
+</div>
+</section>
+<section id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading"></a></h2>
+<p>Complete documentation can be found <a class="reference external" href="https://github.com/chinmaynehate/go1pylib">here</a>.</p>
+</section>
+<section id="contributing">
+<h2>Contributing<a class="headerlink" href="#contributing" title="Permalink to this heading"></a></h2>
+<p>Contributions are welcome! Please see our <a class="reference external" href="https://github.com/chinmaynehate/go1pylib/blob/main/CONTRIBUTING.md">contributing guidelines</a> for more information.</p>
+</section>
+<section id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this heading"></a></h2>
+<p>This project is licensed under the MIT License. See the <a class="reference external" href="https://github.com/chinmaynehate/go1pylib/blob/main/LICENSE">LICENSE</a> file for details.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to go1pylib’s Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
