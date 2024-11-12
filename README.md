@@ -84,3 +84,14 @@ Contributions are welcome! Check out our [contributing guidelines](https://githu
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/chinmaynehate/go1pylib/blob/main/LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to:
+
+- [go1-js by dbaldwin](https://github.com/dbaldwin/go1-js)
+- [YushuTechUnitreeGo1 by MAVProxyUser](https://github.com/MAVProxyUser/YushuTechUnitreeGo1) 
+- [Unitree Go1 Educational Documentation](https://unitree-docs.readthedocs.io/en/latest/get_started/Go1_Edu.html)
+
+Thank you to all contributors who made this project possible!
+
