@@ -2,7 +2,8 @@
 ![go1pylib](go1.gif)
 # go1pylib: Python Library for Go1 Robot Control
 
-![PyPI version](https://img.shields.io/pypi/v/go1pylib) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Python Versions](https://img.shields.io/pypi/pyversions/go1pylib)
+[![PyPI version](https://badge.fury.io/py/go1pylib.svg)](https://pypi.org/project/go1pylib/)
+ ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Python Versions](https://img.shields.io/pypi/pyversions/go1pylib)
 
 go1pylib is a Python library designed for controlling the Go1 robot, providing high-level methods for robot movement, state management, and collision avoidance. With built-in functionality for MQTT communication and control modes, go1pylib is ideal for both development and research in robotics.
 
