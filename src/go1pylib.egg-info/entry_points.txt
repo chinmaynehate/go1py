@@ -1,0 +1,4 @@
+[console_scripts]
+go1pylib-dance = go1pylib.examples.dance:main
+go1pylib-forward = go1pylib.examples.move_forward:main
+go1pylib-square = go1pylib.examples.square:main

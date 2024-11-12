@@ -1,3 +1,50 @@
+Metadata-Version: 2.1
+Name: go1pylib
+Version: 0.1.0
+Summary: Python Library for Go1 Robot Control
+Home-page: https://github.com/chinmaynehate/go1pylib
+Author: Chinmay Nehate
+Author-email: chinmaynehate@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/chinmaynehate/go1pylib/issues
+Project-URL: Documentation, https://github.com/chinmaynehate/go1pylib/docs
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: paho-mqtt<2.0.0,>=1.6.1
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: events>=0.5
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.20.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: mypy>=0.990; extra == "dev"
+Requires-Dist: pylint>=2.15.0; extra == "dev"
+Requires-Dist: build>=0.7.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=4.0.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=1.0.0; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints>=1.12.0; extra == "docs"
+Provides-Extra: examples
+Requires-Dist: jupyter>=1.0.0; extra == "examples"
+Requires-Dist: ipykernel>=6.0.0; extra == "examples"
+
 
 # go1pylib: Python Library for Go1 Robot Control
 
