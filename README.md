@@ -1,5 +1,5 @@
 
-![go1pylib Logo](logo.jpeg)
+![go1pylib](go1.gif)
 # go1pylib: Python Library for Go1 Robot Control
 
 ![PyPI version](https://img.shields.io/pypi/v/go1pylib) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Python Versions](https://img.shields.io/pypi/pyversions/go1pylib)
