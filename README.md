@@ -73,11 +73,11 @@ go1pylib/
 
 ## Documentation
 
-Complete documentation can be found [here](https://github.com/yourusername/go1pylib).
+Complete documentation can be found [here](https://github.com/chinmaynehate/go1pylib).
 
 ## Contributing
 
-Contributions are welcome! Please see our [contributing guidelines](https://github.com/yourusername/go1pylib/blob/main/CONTRIBUTING.md) for more information.
+Contributions are welcome! Please see our [contributing guidelines](https://github.com/chinmaynehate/go1pylib/blob/main/CONTRIBUTING.md) for more information.
 
 ## License
 
