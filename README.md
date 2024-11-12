@@ -74,7 +74,7 @@ go1pylib/
 
 ## Documentation
 
-Full documentation can be found [here](https://github.com/chinmaynehate/go1pylib).
+Full documentation can be found [here](https://chinmaynehate.github.io/go1pylib/).
 
 ## Contributing
 
