@@ -1,13 +1,21 @@
 
+<div align="center">
+
 ![go1pylib](go1.gif)
+
 # go1pylib: Python Library for Go1 Robot Control
 
-[![PyPI version](https://badge.fury.io/py/go1pylib.svg)](https://pypi.org/project/go1pylib/)
- ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Python Versions](https://img.shields.io/pypi/pyversions/go1pylib)
+[![PyPI version](https://badge.fury.io/py/go1pylib.svg)](https://pypi.org/project/go1pylib/) 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) 
+![Python Versions](https://img.shields.io/pypi/pyversions/go1pylib)
+
+</div>
 
 go1pylib is a Python library designed for controlling the Go1 robot, providing high-level methods for robot movement, state management, and collision avoidance. With built-in functionality for MQTT communication and control modes, go1pylib is ideal for both development and research in robotics.
 
-## Features
+---
+
+## :star2: Features
 
 - **Robot Control**: Control Go1's movements including forward, backward, turns, and pose adjustments.
 - **Collision Avoidance**: Includes safe navigation with customizable obstacle detection thresholds.
@@ -16,7 +24,7 @@ go1pylib is a Python library designed for controlling the Go1 robot, providing h
 - **MQTT Communication**: Reliable MQTT communication for Go1 state management and control.
 - **Multiple Control Modes**: Switch modes such as WALK and STAND for various scenarios.
 
-## Installation
+## :rocket: Installation
 
 Install the latest version of go1pylib with pip:
 
@@ -24,7 +32,7 @@ Install the latest version of go1pylib with pip:
 pip install go1pylib
 ```
 
-## Usage
+## :computer: Usage
 
 Here's an example to get started:
 
@@ -51,11 +59,11 @@ async def main():
 asyncio.run(main())
 ```
 
-## Examples
+## :file_folder: Examples
 
 Find more examples in the `examples` directory for controlling the robot, collision avoidance, and LED control.
 
-## Project Structure
+## :file_cabinet: Project Structure
 
 ```plaintext
 go1pylib/
@@ -73,19 +81,19 @@ go1pylib/
 └── README.md
 ```
 
-## Documentation
+## :books: Documentation
 
 Full documentation can be found [here](https://chinmaynehate.github.io/go1pylib/).
 
-## Contributing
+## :handshake: Contributing
 
 Contributions are welcome! Check out our [contributing guidelines](https://github.com/chinmaynehate/go1pylib/blob/main/CONTRIBUTING.md) for more information.
 
-## License
+## :warning: License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/chinmaynehate/go1pylib/blob/main/LICENSE) file for details.
 
-## Acknowledgments
+## :gem: Acknowledgments
 
 Special thanks to:
 
@@ -94,4 +102,3 @@ Special thanks to:
 - [Unitree Go1 Educational Documentation](https://unitree-docs.readthedocs.io/en/latest/get_started/Go1_Edu.html)
 
 Thank you to all contributors who made this project possible!
-
