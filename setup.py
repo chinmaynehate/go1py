@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="go1pylib",
-    version="0.1.0",
+    version="0.1.1",
     author="Chinmay Nehate",
     author_email="chinmaynehate@gmail.com",
     description="Python Library for Go1 Robot Control",
