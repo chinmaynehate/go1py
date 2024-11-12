@@ -8,7 +8,7 @@ from .receivers import bms_receivers, robot_receivers
 logger = logging.getLogger(__name__)
 
 class DataView:
-    """Class to mimic JavaScript's DataView for binary data handling."""
+    """Class for binary data handling."""
     def __init__(self, buffer: bytes, byte_offset: int = 0, byte_length: int = None):
         self.buffer = buffer
         self.byte_offset = byte_offset
