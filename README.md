@@ -81,4 +81,5 @@ Contributions are welcome! Please see our [contributing guidelines](https://gith
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/chinmaynehate/go1pylib/blob/main/LICENSE) file for details.
