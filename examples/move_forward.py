@@ -2,7 +2,7 @@ import asyncio
 import logging
 import sys
 import time
-from go1py import Go1, Go1Mode
+from go1pylib import Go1, Go1Mode
 
 # Configure logging
 logging.basicConfig(

@@ -1,8 +1,8 @@
 import asyncio
 import logging
 from typing import Optional
-from go1py.go1 import Go1, Go1Mode
-from go1py.mqtt.state import Go1State
+from go1pylib.go1 import Go1, Go1Mode
+from go1pylib.mqtt.state import Go1State
 
 # Configure logging
 logging.basicConfig(

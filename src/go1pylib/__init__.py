@@ -1,5 +1,5 @@
 """
-Go1Py - Python Library for Go1 Robot Control
+go1pylib - Python Library for Go1 Robot Control
 
 This library provides a Python interface for controlling the Go1 quadruped robot.
 """

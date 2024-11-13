@@ -2,7 +2,7 @@ import asyncio
 import logging
 import time
 from typing import Tuple
-from go1py.go1 import Go1
+from go1pylib.go1 import Go1
 import random
 
 # Configure logging
