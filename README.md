@@ -18,11 +18,10 @@ go1pylib is a Python library designed for controlling the Go1 robot, providing h
 ## :star2: Features
 
 - **Robot Control**: Control Go1's movements including forward, backward, turns, and pose adjustments.
-- **Collision Avoidance**: Includes safe navigation with customizable obstacle detection thresholds.
 - **Battery Monitoring**: Real-time battery status with configurable LED indicators.
 - **LED Control**: Customizable LED color control based on robot state or custom feedback.
 - **MQTT Communication**: Reliable MQTT communication for Go1 state management and control.
-- **Multiple Control Modes**: Switch modes such as WALK and STAND for various scenarios.
+- **Multiple Control Modes**: Switch modes such as WALK, STAND for various scenarios.
 
 ## :rocket: Installation
 
@@ -58,10 +57,28 @@ async def main():
 
 asyncio.run(main())
 ```
+It is recommended to try out the programs under `examples/`
 
 ## :file_folder: Examples
 
 Find more examples in the `examples` directory for controlling the robot, collision avoidance, and LED control.
+
+## :file_folder: Examples Progress
+
+| **File Name**         | **Status** |
+|------------------------|------------|
+| `avoid_obstacles.py`   | ❌         |
+| `dance.py`             | ✅         |
+| `get_state.py`         | ❌         |
+| `led_control.py`       | ✅         |
+| `move_forward.py`      | ✅         |
+| `move_joints.py`       | ✅         |
+| `square.py`            | ✅         |
+
+### :bulb: Note
+- Files marked with ❌ are currently not operational and need debugging or additional implementation to function correctly.
+- All ✅ examples are fully functional and ready to use.
+
 
 ## :file_cabinet: Project Structure
 
@@ -83,7 +100,8 @@ go1pylib/
 
 ## :books: Documentation
 
-Full documentation can be found [here](https://chinmaynehate.github.io/go1pylib/).
+Basic documentation can be found [here](https://chinmaynehate.github.io/go1pylib/). 
+(Will be updated)
 
 ## :handshake: Contributing
 
